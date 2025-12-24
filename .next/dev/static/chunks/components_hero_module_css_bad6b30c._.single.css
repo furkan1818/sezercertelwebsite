@@ -1,0 +1,159 @@
+/* [project]/components/hero.module.css [app-client] (css) */
+.hero-module__qbw09W__hero {
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 50px;
+  padding: 0 60px;
+  display: flex;
+}
+
+.hero-module__qbw09W__heroContent {
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 100%;
+  display: grid;
+}
+
+.hero-module__qbw09W__heroLeft {
+  flex-direction: column;
+  justify-content: center;
+  animation: .8s forwards hero-module__qbw09W__slideInLeft;
+  display: flex;
+}
+
+.hero-module__qbw09W__heroTitle {
+  color: #242442;
+  margin-bottom: 16px;
+  font-family: Gilroy, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero-module__qbw09W__heroSubtitle {
+  color: #7d7d7d;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.hero-module__qbw09W__valueCards {
+  gap: 20px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.hero-module__qbw09W__valueCard {
+  background-color: var(--color-background-alt);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  padding: 24px 32px;
+}
+
+.hero-module__qbw09W__valueCard:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.hero-module__qbw09W__valueNumber {
+  color: var(--color-primary);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.hero-module__qbw09W__valueLabel {
+  color: var(--color-text-muted);
+  margin-top: 4px;
+  font-size: .95rem;
+}
+
+.hero-module__qbw09W__heroCta {
+  color: #fafafb;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+  background-color: #003e98;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 10px 15px;
+  font-family: Gilroy, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.hero-module__qbw09W__heroCta:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+
+.hero-module__qbw09W__heroRight {
+  justify-content: center;
+  align-items: center;
+  animation: .8s forwards hero-module__qbw09W__slideInRight;
+  display: flex;
+}
+
+.hero-module__qbw09W__heroImage {
+  aspect-ratio: 1;
+  border-radius: var(--radius-lg);
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  display: flex;
+  overflow: hidden;
+}
+
+.hero-module__qbw09W__heroImage img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .hero-module__qbw09W__heroContent {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-module__qbw09W__heroRight {
+    order: -1;
+  }
+
+  .hero-module__qbw09W__heroImage {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-module__qbw09W__hero {
+    padding: 100px 20px 60px;
+  }
+
+  .hero-module__qbw09W__heroTitle {
+    font-size: 2rem;
+  }
+
+  .hero-module__qbw09W__valueCards {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .hero-module__qbw09W__valueCard {
+    padding: 20px 24px;
+  }
+}
+
+.hero-module__qbw09W__logoImg {
+  width: auto;
+  height: 30px;
+  display: block;
+}
+
+/*# sourceMappingURL=components_hero_module_css_bad6b30c._.single.css.map*/

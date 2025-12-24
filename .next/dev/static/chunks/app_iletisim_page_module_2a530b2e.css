@@ -1,0 +1,173 @@
+/* [project]/app/iletisim/page.module.css [app-client] (css) */
+.page-module__Gyut6G__contact {
+  min-height: 100vh;
+  padding: 120px 60px 80px;
+}
+
+.page-module__Gyut6G__contactInner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-module__Gyut6G__pageTitle {
+  color: var(--color-text);
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.page-module__Gyut6G__pageSubtitle {
+  color: var(--color-text-muted);
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.125rem;
+}
+
+.page-module__Gyut6G__contactContent {
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  display: grid;
+}
+
+.page-module__Gyut6G__contactForm {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  padding: 40px;
+}
+
+.page-module__Gyut6G__formGroup {
+  margin-bottom: 24px;
+}
+
+.page-module__Gyut6G__formLabel {
+  color: var(--color-text);
+  margin-bottom: 8px;
+  font-size: .95rem;
+  font-weight: 500;
+  display: block;
+}
+
+.page-module__Gyut6G__formInput {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  width: 100%;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  padding: 14px 16px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.page-module__Gyut6G__formInput:focus {
+  border-color: var(--color-primary);
+  outline: none;
+  box-shadow: 0 0 0 3px #1a365d1a;
+}
+
+.page-module__Gyut6G__formTextarea {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  resize: vertical;
+  width: 100%;
+  min-height: 150px;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  padding: 14px 16px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.page-module__Gyut6G__formTextarea:focus {
+  border-color: var(--color-primary);
+  outline: none;
+  box-shadow: 0 0 0 3px #1a365d1a;
+}
+
+.page-module__Gyut6G__submitButton {
+  background-color: var(--color-primary);
+  width: 100%;
+  color: var(--color-white);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+  border: none;
+  padding: 16px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.page-module__Gyut6G__submitButton:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+
+.page-module__Gyut6G__contactInfo {
+  flex-direction: column;
+  gap: 32px;
+  display: flex;
+}
+
+.page-module__Gyut6G__infoCard {
+  background-color: var(--color-background-alt);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  padding: 28px;
+}
+
+.page-module__Gyut6G__infoTitle {
+  color: var(--color-text);
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.page-module__Gyut6G__infoIcon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-primary);
+}
+
+.page-module__Gyut6G__infoText {
+  color: var(--color-text-muted);
+  font-size: .95rem;
+  line-height: 1.7;
+}
+
+.page-module__Gyut6G__infoLink {
+  color: var(--color-primary);
+  transition: color var(--transition-fast);
+}
+
+.page-module__Gyut6G__infoLink:hover {
+  color: var(--color-primary-dark);
+}
+
+@media (max-width: 992px) {
+  .page-module__Gyut6G__contactContent {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-module__Gyut6G__contact {
+    padding: 100px 20px 60px;
+  }
+
+  .page-module__Gyut6G__pageTitle {
+    font-size: 2rem;
+  }
+
+  .page-module__Gyut6G__contactForm {
+    padding: 28px;
+  }
+}
+
+/*# sourceMappingURL=app_iletisim_page_module_2a530b2e.css.map*/

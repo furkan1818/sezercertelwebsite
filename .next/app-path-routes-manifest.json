@@ -1,0 +1,8 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/iletisim/page": "/iletisim",
+  "/makaleler/[slug]/page": "/makaleler/[slug]",
+  "/page": "/",
+  "/sirket-acilis/page": "/sirket-acilis"
+}

@@ -1,0 +1,170 @@
+.contact {
+  padding: 120px 60px 80px;
+  min-height: 100vh;
+}
+
+.contactInner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.pageSubtitle {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.contactForm {
+  background-color: var(--color-white);
+  padding: 40px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.formGroup {
+  margin-bottom: 24px;
+}
+
+.formLabel {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(26, 54, 93, 0.1);
+}
+
+.formTextarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 150px;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.formTextarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(26, 54, 93, 0.1);
+}
+
+.submitButton {
+  width: 100%;
+  padding: 16px 32px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.submitButton:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.infoCard {
+  background-color: var(--color-background-alt);
+  padding: 28px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.infoTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.infoIcon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-primary);
+}
+
+.infoText {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.infoLink {
+  color: var(--color-primary);
+  transition: color var(--transition-fast);
+}
+
+.infoLink:hover {
+  color: var(--color-primary-dark);
+}
+
+@media (max-width: 992px) {
+  .contactContent {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 100px 20px 60px;
+  }
+
+  .pageTitle {
+    font-size: 2rem;
+  }
+
+  .contactForm {
+    padding: 28px;
+  }
+}

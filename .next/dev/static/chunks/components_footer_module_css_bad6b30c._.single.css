@@ -1,0 +1,114 @@
+/* [project]/components/footer.module.css [app-client] (css) */
+.footer-module__oqRDSq__footer {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 30px 80px;
+}
+
+.footer-module__oqRDSq__footerContent {
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-module__oqRDSq__footerLeft {
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
+
+.footer-module__oqRDSq__footerLinks {
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+
+.footer-module__oqRDSq__footerLink {
+  color: #fffc;
+  transition: color var(--transition-fast);
+  font-size: .95rem;
+}
+
+.footer-module__oqRDSq__footerLink:hover {
+  color: var(--color-white);
+}
+
+.footer-module__oqRDSq__footerRight {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.footer-module__oqRDSq__footerLogo {
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.footer-module__oqRDSq__logoIcon {
+  background-color: var(--color-white);
+  border-radius: var(--radius-md);
+  width: 40px;
+  height: 40px;
+  color: var(--color-primary);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.footer-module__oqRDSq__contactInfo {
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+
+.footer-module__oqRDSq__contactItem {
+  color: #ffffffe6;
+  align-items: center;
+  gap: 12px;
+  font-size: .95rem;
+  display: flex;
+}
+
+.footer-module__oqRDSq__contactIcon {
+  opacity: .8;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-module__oqRDSq__footerBottom {
+  text-align: center;
+  color: #ffffffb3;
+  border-top: 1px solid #fff3;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: .875rem;
+}
+
+@media (max-width: 768px) {
+  .footer-module__oqRDSq__footer {
+    padding: 40px 20px;
+  }
+
+  .footer-module__oqRDSq__footerContent {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .footer-module__oqRDSq__footerRight {
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-module__oqRDSq__footerLeft, .footer-module__oqRDSq__footerLinks {
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=components_footer_module_css_bad6b30c._.single.css.map*/

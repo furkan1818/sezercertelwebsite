@@ -1,0 +1,93 @@
+/* [project]/components/services.module.css [app-client] (css) */
+.services-module__8oUAeG__services {
+  background-color: var(--color-background-alt);
+  padding: 80px 60px;
+}
+
+.services-module__8oUAeG__servicesInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-module__8oUAeG__sectionLabel {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.services-module__8oUAeG__sectionTitle {
+  color: var(--color-text);
+  max-width: 600px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.services-module__8oUAeG__servicesGrid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  display: grid;
+}
+
+.services-module__8oUAeG__serviceCard {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  padding: 32px;
+}
+
+.services-module__8oUAeG__serviceCard:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-6px);
+}
+
+.services-module__8oUAeG__serviceIcon {
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  width: 56px;
+  height: 56px;
+  color: var(--color-white);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.services-module__8oUAeG__serviceTitle {
+  color: var(--color-text);
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.services-module__8oUAeG__serviceDescription {
+  color: var(--color-text-muted);
+  font-size: .95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 992px) {
+  .services-module__8oUAeG__servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services-module__8oUAeG__services {
+    padding: 60px 20px;
+  }
+
+  .services-module__8oUAeG__servicesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-module__8oUAeG__sectionTitle {
+    font-size: 1.75rem;
+  }
+}
+
+/*# sourceMappingURL=components_services_module_css_bad6b30c._.single.css.map*/

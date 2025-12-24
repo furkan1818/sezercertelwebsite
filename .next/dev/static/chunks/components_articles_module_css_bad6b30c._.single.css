@@ -1,0 +1,115 @@
+/* [project]/components/articles.module.css [app-client] (css) */
+.articles-module__5v-i_a__articles {
+  background-color: var(--color-background-alt);
+  padding: 80px 60px;
+}
+
+.articles-module__5v-i_a__articlesInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.articles-module__5v-i_a__sectionLabel {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.articles-module__5v-i_a__sectionTitle {
+  color: var(--color-text);
+  margin-bottom: 50px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.articles-module__5v-i_a__articlesGrid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  display: grid;
+}
+
+.articles-module__5v-i_a__articleCardLink {
+  text-decoration: none;
+  display: block;
+}
+
+.articles-module__5v-i_a__articleCard {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  height: 100%;
+  overflow: hidden;
+}
+
+.articles-module__5v-i_a__articleCard:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-6px);
+}
+
+.articles-module__5v-i_a__articleImage {
+  aspect-ratio: 16 / 10;
+  background-color: var(--color-background-alt);
+  width: 100%;
+  overflow: hidden;
+}
+
+.articles-module__5v-i_a__articleImage img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform var(--transition-normal);
+}
+
+.articles-module__5v-i_a__articleCard:hover .articles-module__5v-i_a__articleImage img {
+  transform: scale(1.05);
+}
+
+.articles-module__5v-i_a__articleContent {
+  padding: 24px;
+}
+
+.articles-module__5v-i_a__articleDate {
+  color: var(--color-text-light);
+  margin-bottom: 8px;
+  font-size: .8rem;
+}
+
+.articles-module__5v-i_a__articleTitle {
+  color: var(--color-text);
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.articles-module__5v-i_a__articleExcerpt {
+  color: var(--color-text-muted);
+  font-size: .9rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 992px) {
+  .articles-module__5v-i_a__articlesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .articles-module__5v-i_a__articles {
+    padding: 60px 20px;
+  }
+
+  .articles-module__5v-i_a__articlesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .articles-module__5v-i_a__sectionTitle {
+    font-size: 1.75rem;
+  }
+}
+
+/*# sourceMappingURL=components_articles_module_css_bad6b30c._.single.css.map*/

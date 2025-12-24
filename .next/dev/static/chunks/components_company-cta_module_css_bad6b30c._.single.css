@@ -1,0 +1,135 @@
+/* [project]/components/company-cta.module.css [app-client] (css) */
+.company-cta-module__yoYk9q__section {
+  background-color: var(--color-background-alt);
+  padding: 80px 0;
+}
+
+.company-cta-module__yoYk9q__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.company-cta-module__yoYk9q__grid {
+  align-items: flex-start;
+  gap: 60px;
+  display: flex;
+}
+
+.company-cta-module__yoYk9q__content {
+  flex: 1;
+}
+
+.company-cta-module__yoYk9q__heading {
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.company-cta-module__yoYk9q__description {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.company-cta-module__yoYk9q__formWrapper {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  flex: 1;
+  padding: 32px;
+}
+
+.company-cta-module__yoYk9q__form {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.company-cta-module__yoYk9q__formGroup {
+  flex-direction: column;
+  gap: 6px;
+  display: flex;
+}
+
+.company-cta-module__yoYk9q__label {
+  color: var(--color-text);
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+.company-cta-module__yoYk9q__input, .company-cta-module__yoYk9q__select {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-white);
+  color: var(--color-text);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  padding: 12px 16px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.company-cta-module__yoYk9q__input:focus, .company-cta-module__yoYk9q__select:focus {
+  border-color: var(--color-primary-light);
+  outline: none;
+  box-shadow: 0 0 0 3px #1a365d1a;
+}
+
+.company-cta-module__yoYk9q__input::placeholder {
+  color: var(--color-text-light);
+}
+
+.company-cta-module__yoYk9q__select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b7280' d='M2.5 4.5L6 8l3.5-3.5'/%3E%3C/svg%3E");
+  background-position: right 16px center;
+  background-repeat: no-repeat;
+  padding-right: 40px;
+}
+
+.company-cta-module__yoYk9q__submitButton {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  border: none;
+  margin-top: 8px;
+  padding: 14px 24px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.company-cta-module__yoYk9q__submitButton:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.company-cta-module__yoYk9q__submitButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #1a365d33;
+}
+
+@media (max-width: 768px) {
+  .company-cta-module__yoYk9q__section {
+    padding: 60px 0;
+  }
+
+  .company-cta-module__yoYk9q__grid {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .company-cta-module__yoYk9q__heading {
+    font-size: 1.75rem;
+  }
+
+  .company-cta-module__yoYk9q__formWrapper {
+    padding: 24px;
+  }
+}
+
+/*# sourceMappingURL=components_company-cta_module_css_bad6b30c._.single.css.map*/
