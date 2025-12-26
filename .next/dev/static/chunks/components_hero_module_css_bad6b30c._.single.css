@@ -1,10 +1,15 @@
 /* [project]/components/hero.module.css [app-client] (css) */
 .hero-module__qbw09W__hero {
+  background-image: url("/bgg.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
   align-items: center;
   min-height: 100vh;
   margin-top: 50px;
   padding: 0 60px;
   display: flex;
+  position: relative;
 }
 
 .hero-module__qbw09W__heroContent {

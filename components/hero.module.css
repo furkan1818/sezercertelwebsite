@@ -4,6 +4,19 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+
+  /* BACKGROUND IMAGE */
+  background-image: url("/bgg.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-position: right center; /* sağa dayalı */
+  background-size: 100%;             /* masaüstü başlangıç */
 }
 
 .heroContent {
@@ -155,3 +168,4 @@
   width: auto;
   display: block;
 }
+

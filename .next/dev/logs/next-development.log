@@ -1,7 +1,18 @@
-[00:00:02.284] Server  LOG      ✓ Ready in 1555ms
-[00:00:06.814] Server  LOG      ○ Compiling / ...
-[00:00:14.617] Server  WARN     ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:31.404] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:06:15.820] Server  LOG      ✓ Compiled in 80ms
-[00:06:18.842] Server  LOG      ✓ Compiled in 167ms
+[00:00:08.594] Server  LOG      ✓ Ready in 7s
+[00:00:11.625] Server  LOG      ○ Compiling / ...
+[00:27:37.237] Server  LOG      ✓ Compiled in 78ms
+[00:28:03.854] Server  LOG      ✓ Compiled in 81ms
+[00:28:26.988] Server  LOG      ✓ Compiled in 64ms
+[00:29:18.381] Server  LOG      ✓ Compiled in 37ms
+[00:29:41.376] Server  LOG      ✓ Compiled in 57ms
+[00:30:07.705] Server  LOG      ✓ Compiled in 38ms
+[00:31:31.098] Server  LOG      ✓ Compiled in 58ms
+[00:31:43.652] Server  LOG      ✓ Compiled in 36ms
+[00:37:24.022] Server  LOG      ✓ Compiled in 59ms
+[00:44:30.471] Server  LOG      ✓ Compiled in 40ms
+[00:44:56.971] Server  LOG      ✓ Compiled in 45ms
+[00:45:07.212] Server  LOG      ✓ Compiled in 45ms
+[00:45:33.193] Server  LOG      ✓ Compiled in 39ms
+[00:45:48.422] Server  LOG      ✓ Compiled in 41ms
+[00:46:03.166] Server  LOG      ✓ Compiled in 82ms
+[00:46:17.189] Server  LOG      ✓ Compiled in 37ms

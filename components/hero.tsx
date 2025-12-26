@@ -30,11 +30,7 @@ export default function Hero() {
           </Link>
         </div>
 
-        <div className={styles.heroRight}>
-          <div className={styles.heroImage}>
-            <img src="/placeholder-22-sezer-abi-pp.png" alt="Mali Müşavir" />
-          </div>
-        </div>
+
       </div>
     </section>
   )
